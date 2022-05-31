@@ -13,7 +13,7 @@ function calcular(gasPrice, kmLGas, etanolPrice, kmLEtanol) {
     console.log(consEta);
     console.log(consGas);
     if (consEta < consGas) {
-      alert(`Nessas circunstâncias teste é melhor abastecer com etanol`);
+      alert(`Nessas circunstâncias é melhor abastecer com etanol`);
     } else {
       alert(`Nessas circunstâncias é melhor abastecer com gasolina`);
     }
