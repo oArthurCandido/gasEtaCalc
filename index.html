@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html
+  lang="pt-br
+"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="calcForm">
+      <div class="gasEtaForm">
+        <label for="gasPrice">Preço da gasolina</label
+        ><input
+          class="gasEtaFormInput"
+          type="text"
+          id="gasPrice"
+          placeholder="Preço da gasolina"
+        />
+      </div>
+      <div class="gasEtaForm">
+        <label for="kmLGas">Kms por litro na gasolina do seu carro</label
+        ><input
+          class="gasEtaFormInput"
+          type="text"
+          id="kmLGas"
+          placeholder="Km/L na Gasolina"
+        />
+      </div>
+      <div class="gasEtaForm">
+        <label for="etanolPrice">Preço do etanol</label
+        ><input
+          class="gasEtaFormInput"
+          type="text"
+          id="etanolPrice"
+          placeholder="Preço do etanol"
+        />
+      </div>
+      <div class="gasEtaForm">
+        <label for="kmLEtanol">Kms por litro no etanol do seu carro</label
+        ><input
+          class="gasEtaFormInput"
+          type="text"
+          id="kmLEtanol"
+          placeholder="Km/L no etanol"
+        />
+      </div>
+      <div class="gasEtaForm">
+        <label for="calcButton">
+          <button id="calcButton" class="gasEtaFormInput" onclick="getNumber()">
+            Calcular
+          </button>
+        </label>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
